@@ -1,4 +1,4 @@
-<div class='dashboard-banner-container' data-page="chain-details">
+<div class='dashboard-banner-container-1' data-page="chain-details" style="background-image: linear-gradient(180deg,#001839,#072F50);">
   <div class="container">
     <div class="dashboard-banner">
       <!-- Graph and legend -->
@@ -104,7 +104,7 @@
         </div>
       </div>
       <!-- Stats -->
-      <div class="dashboard-banner-network-plain-container">
+      <div class="dashboard-banner-network-plain-container" style="background-color: #072F50;">
         <div class="dashboard-banner-network-stats">
           <%= case @average_block_time do %>
             <% {:error, :disabled} -> %>
@@ -244,3 +244,9 @@
     </div>
   </div>
 </section>
+
+<style>
+.dashboard-banner-network-plain-container:after {
+    background-color: #072F50;
+}
+</style>
