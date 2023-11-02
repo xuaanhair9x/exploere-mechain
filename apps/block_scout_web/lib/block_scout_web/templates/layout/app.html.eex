@@ -294,3 +294,49 @@
     <script defer src="<%= static_path(@conn, "/js/autocomplete.js") %>"></script>
   </body>
 </html>
+<style>
+.dashboard-banner-network-plain-container:after {
+    background-color: #072F50;
+}
+.dashboard-banner-network-stats-label {
+  color: #ffff !important
+}
+.dashboard-banner-chart-legend-label {
+  color: #ffff !important
+}
+.dashboard-banner-chart-legend .dashboard-banner-chart-legend-item.gas-price-oracle:before, .dashboard-banner-chart-legend .dashboard-banner-chart-legend-item.price-per-day:before {
+    background-color: #206dd7;
+}
+.tile .tile-body a, .tile a[data-test=token_link], .tile span[data-address-hash] {
+    color: #001839;
+}
+.tile.tile-type-block {
+    border-left: 4px solid #072F50;
+}
+a.tile-title {
+    color: #072F50!important;
+}
+.footer {
+  background-color: #001839;
+  color: #ffff;
+}
+.footer-link {
+    color: #ffff;
+}
+.fontawesome-icon {
+    background-color: #ffff;
+}
+.footer-logo {
+    filter: none;
+}
+.btn-line {
+    background-color: #fff;
+    color: #072F50;
+    border: 1px solid #072F50;
+}
+.btn-line:hover {
+    background-color: #072F50;
+    color: #fff;
+    text-decoration: none;
+}
+</style>
