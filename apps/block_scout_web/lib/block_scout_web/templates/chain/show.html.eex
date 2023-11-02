@@ -1,4 +1,4 @@
-<div class='dashboard-banner-container-1' data-page="chain-details" style="background-image: linear-gradient(180deg,#001839,#072F50);">
+<div class='dashboard-banner-container' data-page="chain-details" style="background-image: linear-gradient(180deg,#001839,#072F50);">
   <div class="container">
     <div class="dashboard-banner">
       <!-- Graph and legend -->
@@ -248,5 +248,23 @@
 <style>
 .dashboard-banner-network-plain-container:after {
     background-color: #072F50;
+}
+.dashboard-banner-network-stats-label {
+  color: #ffff;
+}
+.dashboard-banner-chart-legend-label {
+  color: #ffff;
+}
+.footer {
+  background-color: #001839;
+}
+.footer-link {
+    color: #ffff;
+}
+.fontawesome-icon {
+    background-color: #ffff;
+}
+.footer-logo {
+    filter: none;
 }
 </style>
